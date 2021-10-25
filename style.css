@@ -1,7 +1,122 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 .green {
-    background-color: green;
+  background-color: green;
+  height: 300px;
+  width: 200px;
+}
+.whiteitaly {
+  background-color: white;
+  height: 300px;
+  width: 200px;
+}
+.reditaly {
+  background-color: red;
+  height: 300px;
+  width: 200px;
+}
+.black {
+  background-color: black;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+  height: 100px;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 100px;
+}
+
+.redfrance {
+  background-color: red;
+  height: 300px;
+  width: 200px;
+}
+
+.whitefrance {
+  background-color: white;
+  height: 300px;
+  width: 200px;
+}
+
+.blue {
+  background-color: blue;
+  height: 300px;
+  width: 200px;
+}
+
+.germany {
+  max-width: 600px;
+  min-height: 100px;
+  margin: auto;
+}
+
+.france {
+  display: flex;
+  max-width: 600px;
+  min-height: 100px;
+  margin: auto;
+}
+
+.italy {
+  display: flex;
+  max-width: 600px;
+  min-height: 100px;
+  margin: auto;
+}
+
+.nonna {
+  max-width: 600px;
+  min-height: 100px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.papa {
+  max-width: 600px;
+  min-height: 100px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.claire {
+  max-width: 600px;
+  min-height: 100px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+@media (min-width: 699px) {
+  .italy {
+    display: none;
+  }
+  .nonna {
+    display: none;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .germany {
+    display: none;
+  }
+  .papa {
+    display: none;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .france {
+    display: none;
+  }
+  .claire {
+    display: none;
+  }
 }
